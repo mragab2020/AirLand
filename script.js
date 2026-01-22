@@ -186,12 +186,12 @@ if (form) {
     const service = (document.getElementById("service")?.value || "").trim();
     const location = (document.getElementById("location")?.value || "").trim();
     const notes = (document.getElementById("notes")?.value || "").trim();
-
+/*
     if (!name || !phone || !service || !location) {
       alert("من فضلك املأ الاسم ورقم الجوال والخدمة والموقع داخل الرياض.");
       return;
     }
-
+*/
     const msg = `مرحبًا 👋
 أنا أرسل طلب خدمة إلى *اير ماكس*.
 
