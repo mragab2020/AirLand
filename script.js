@@ -1,5 +1,5 @@
-const PHONE = "+966 57 402 7673";
-const WA_NUMBER = "+966 57 402 7673"; 
+const PHONE = "0574027673";
+const WA_NUMBER = "0574027673"; 
 const CITY = "الرياض";
 
 const links = Array.from(document.querySelectorAll(".nav__link"));
@@ -71,7 +71,7 @@ function openWhatsApp(message){
 }
 
 function quickMessage(){
-  return `مرحبًا 👋\nأنا من ${CITY}.\nأحتاج خدمة من اير ماكس.\n\nالاسم: \nالجوال: \nالخدمة: \nالموقع: \nملاحظات: `;
+  return مرحبا بكم شركة اير ماكس في خدماتكم في كل ما يخص عالم التكييف ونقل الاثاث: `;
 }
 
 /* Top / Hero / Float buttons */
