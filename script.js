@@ -1,5 +1,5 @@
-const PHONE = "0574027673";
-const WA_NUMBER = "0574027673"; 
+const PHONE = "+966574027673";
+const WA_NUMBER = "+966574027673"; 
 const CITY = "الرياض";
 
 const links = Array.from(document.querySelectorAll(".nav__link"));
