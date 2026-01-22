@@ -71,10 +71,8 @@ function openWhatsApp(message) {
   window.open(url, "_blank");
 }
 
-function quickMessage() {
-  return `مرحبًا 👋
-أنا محتاج استفسار/حجز خدمة من *اير ماكس* داخل ${CITY}.
-(صيانة / تنظيف وتعقيم / شحن فريون / نقل وفك وتركيب الأثاث)`;
+function quickMessage(){
+  return `مرحبًا بكم في شركة اير ماكس لخدمات التكييف ونقل الأثاث`;
 }
 
 // Buttons (WhatsApp)
