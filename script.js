@@ -1,5 +1,5 @@
-const PHONE = "0501054209";
-const WA_NUMBER = "966501054209"; // رقم واتساب بصيغة دولية (السعودية). لو عايزها مصر/غيره قولّي
+const PHONE = "+966 57 402 7673";
+const WA_NUMBER = "+966 57 402 7673"; 
 const CITY = "الرياض";
 
 const links = Array.from(document.querySelectorAll(".nav__link"));

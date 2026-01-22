@@ -350,7 +350,7 @@ a{ text-decoration:none; color:inherit; }
 }
 .hero__bg{
   position:absolute; inset:0;
-  background: url("Media/WhatsApp\ Image\ 2026-01-20\ at\ 2.55.28\ PM.jpeg");
+  background: url("Media/hero.jpg");
   background-size:cover;
   background-position:center;
   transform: scale(1.03);
