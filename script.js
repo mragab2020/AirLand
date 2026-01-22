@@ -185,7 +185,7 @@ form.addEventListener("submit", (e) => {
 
 *الاسم:* ${name}
 *رقم الجوال:* ${phone}
-*الخدمة:* ${servic}
+*الخدمة:* ${service}
 *الموقع داخل الرياض:* ${location || "-"}
 *ملاحظات:* ${notes || "-"}
 
