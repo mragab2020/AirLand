@@ -3,15 +3,53 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="اير ماكس - خدمات تكييف احترافية ونقل أثاث في الرياض. صيانة، تنظيف، تعقيم، شحن فريون، وفك وتركيب الأثاث. استجابة سريعة وأسعار مناسبة." />
-  <meta name="keywords" content="صيانة مكيفات، نقل أثاث، تنظيف تكييف، شحن فريون، الرياض، خدمات التكييف" />
+
+  <!-- ✅ SEO: Title + Description (قوية لكلمة صيانة مكيفات بالرياض) -->
+  <title>صيانة مكيفات بالرياض | اير ماكس للتكييف ونقل الأثاث</title>
+  <meta name="description" content="اير ماكس لصيانة المكيفات بالرياض: صيانة سبليت وشباك، تنظيف وتعقيم، شحن فريون، وتمديد نحاس. كذلك نقل وفك وتركيب الأثاث داخل الرياض. اتصل الآن أو اطلب عبر واتساب." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
   <meta name="author" content="اير ماكس" />
-  <meta property="og:title" content="اير ماكس | خدمات التكييف ونقل الأثاث - الرياض" />
-  <meta property="og:description" content="افضل خدمات التكييف والنقل في الرياض. فريق متخصص وأسعار مناسبة وسرعة في الاستجابة." />
-  <meta property="og:type" content="business.business" />
+
+  <!-- ✅ Canonical (غيره بعد ما ترفع على الدومين الحقيقي) -->
+  <link rel="canonical" href="https://airmaxsa.com/" />
+
+  <!-- ✅ Open Graph (للمشاركة على واتساب/فيسبوك) -->
+  <meta property="og:title" content="صيانة مكيفات بالرياض | اير ماكس للتكييف" />
+  <meta property="og:description" content="صيانة وتنظيف وشحن فريون للمكيفات داخل الرياض + نقل وفك وتركيب الأثاث. تواصل معنا الآن." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://airmaxsa.com/" />
+  <meta property="og:site_name" content="اير ماكس" />
+  <!-- لو عندك صورة مناسبة للمشاركة حطها هنا (ارفعها في جذر الموقع باسم og.jpg) -->
+  <meta property="og:image" content="https://airmaxsa.com/og.jpg" />
+  <meta property="og:locale" content="ar_SA" />
+
+  <!-- ✅ Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <link rel="canonical" href="https://yourwebsite.com" />
-  <title>اير ماكس | خدمات التكييف ونقل الأثاث - الرياض</title>
+  <meta name="twitter:title" content="صيانة مكيفات بالرياض | اير ماكس" />
+  <meta name="twitter:description" content="صيانة وتنظيف وشحن فريون للمكيفات داخل الرياض. اتصل أو واتساب الآن." />
+  <meta name="twitter:image" content="https://airmaxsa.com/og.jpg" />
+
+  <!-- ✅ Local SEO Schema (بيساعد جدًا محليًا في الرياض) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "اير ماكس للتكييف ونقل الأثاث",
+    "url": "https://airmaxsa.com/",
+    "telephone": "+966574027673",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "حي المونسية",
+      "addressLocality": "الرياض",
+      "addressCountry": "SA"
+    },
+    "areaServed": "الرياض",
+    "image": "https://airmaxsa.com/og.jpg",
+    "sameAs": [
+      "https://wa.me/966574027673"
+    ]
+  }
+  </script>
 
   <!-- Tajawal -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,6 +61,7 @@
 
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
   <!-- TOP BAR -->
@@ -30,11 +69,11 @@
     <div class="topbar__inner">
       <div class="brand">
         <div class="brand__logo">
-          <img src="Media/logo.jpeg" alt="logo" />
+          <img src="Media/logo.jpeg" alt="شعار اير ماكس للتكييف" loading="lazy" />
         </div>
         <div class="brand__text">
           <div class="brand__name">اير ماكس</div>
-          <div class="brand__sub">خدمات التكييف ونقل الأثاث - الرياض</div>
+          <div class="brand__sub">صيانة مكيفات بالرياض • نقل الأثاث</div>
         </div>
       </div>
 
@@ -49,6 +88,7 @@
         <a href="#services" class="nav__link"><span>خدماتنا</span></a>
         <a href="#gallery" class="nav__link"><span>معرض الصور</span></a>
         <a href="#location" class="nav__link"><span>موقعنا</span></a>
+        <a href="#contact" class="nav__link"><span>اتصل بنا</span></a>
         <span class="nav__indicator" id="navIndicator"></span>
       </nav>
 
@@ -72,12 +112,11 @@
         <span>خدمة سريعة داخل الرياض</span>
       </div>
 
-      <h1 class="hero__title">
-        اير ماكس لخدمات التكييف ونقل الأثاث
-      </h1>
+      <!-- ✅ H1 مضبوط بكلمة البحث -->
+      <h1 class="hero__title">صيانة مكيفات بالرياض – اير ماكس للتكييف ونقل الأثاث</h1>
 
       <p class="hero__desc">
-        صيانة • تنظيف وتعقيم • شحن فريون • نقل وفك وتركيب الأثاث
+        صيانة سبليت وشباك • تنظيف وتعقيم • شحن فريون • تمديد نحاس • نقل وفك وتركيب الأثاث
       </p>
 
       <div class="hero__cards">
@@ -110,7 +149,7 @@
           اتصل بنا الآن
         </a>
 
-        <a class="btn ghost" href="" id="waHero">
+        <a class="btn ghost" href="#" id="waHero">
           <i class="fa-brands fa-whatsapp"></i>
           واتساب
         </a>
@@ -123,7 +162,7 @@
     <div class="services__bg" aria-hidden="true"></div>
     <div class="container">
       <div class="section__head">
-        <h2 class="section__title">خدماتنا</h2>
+        <h2 class="section__title">خدماتنا في الرياض</h2>
         <p class="section__sub">خدمات احترافية وموثوقة داخل الرياض</p>
       </div>
 
@@ -131,7 +170,7 @@
         <article class="card">
           <div class="card__icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
           <h3 class="card__t">صيانة المكيفات</h3>
-          <p class="card__p">تشخيص الأعطال، إصلاح ضعف التبريد، فحص شامل.</p>
+          <p class="card__p">تشخيص الأعطال، إصلاح ضعف التبريد، وفحص شامل.</p>
           <ul class="card__list">
             <li>حل مشاكل التسريب</li>
             <li>فحص كهرباء وكمبروسر</li>
@@ -193,43 +232,43 @@
     <div class="container">
       <div class="section__head">
         <h2 class="section__title">معرض الصور</h2>
-        <p class="section__sub">شاهد بعض أعمالنا وتجارب عملائنا</p>
+        <p class="section__sub">شاهد بعض أعمالنا</p>
       </div>
 
       <div class="gallery-grid">
         <article class="gallery-item">
           <div class="gallery-img-wrapper">
-            <img src="Media/img1.jpeg" alt="عمل صيانة مكيف" class="gallery-img" />
+            <img src="Media/img1.jpeg" alt="صيانة مكيفات بالرياض - اير ماكس" class="gallery-img" loading="lazy" />
           </div>
         </article>
 
         <article class="gallery-item">
           <div class="gallery-img-wrapper">
-            <img src="Media/img5.jpeg" alt="خدمة تنظيف وتعقيم" class="gallery-img" />
+            <img src="Media/img5.jpeg" alt="تنظيف وتعقيم مكيفات بالرياض" class="gallery-img" loading="lazy" />
           </div>
         </article>
 
         <article class="gallery-item">
           <div class="gallery-img-wrapper">
-            <img src="Media/img6.jpeg" alt="خدمة شحن فريون" class="gallery-img" />
+            <img src="Media/img6.jpeg" alt="شحن فريون مكيفات بالرياض" class="gallery-img" loading="lazy" />
           </div>
         </article>
 
         <article class="gallery-item">
           <div class="gallery-img-wrapper">
-            <img src="Media/img7.jpeg" alt="خدمة نقل الأثاث" class="gallery-img" />
+            <img src="Media/img7.jpeg" alt="نقل أثاث داخل الرياض" class="gallery-img" loading="lazy" />
           </div>
         </article>
 
         <article class="gallery-item">
           <div class="gallery-img-wrapper">
-            <img src="Media/img8.jpeg" alt="خدمة نقل الأثاث" class="gallery-img" />
+            <img src="Media/img8.jpeg" alt="نقل وتغليف أثاث" class="gallery-img" loading="lazy" />
           </div>
         </article>
 
         <article class="gallery-item">
           <div class="gallery-img-wrapper">
-            <img src="Media/img9.jpeg" alt="خدمة نقل الأثاث" class="gallery-img" />
+            <img src="Media/img9.jpeg" alt="خدمات نقل الأثاث بالرياض" class="gallery-img" loading="lazy" />
           </div>
         </article>
       </div>
@@ -292,7 +331,7 @@
     <div class="container">
       <div class="section__head">
         <h2 class="section__title">اتصل بنا</h2>
-        <p class="section__sub">املا البيانات وسيتم إرسال الطلب مباشرة على واتساب</p>
+        <p class="section__sub">املأ البيانات وسيتم إرسال الطلب مباشرة على واتساب</p>
       </div>
 
       <div class="contact__grid">
@@ -320,15 +359,16 @@
           </div>
         </div>
 
+        <!-- ✅ Fix: كانت inputs ناقصة > -->
         <form class="form" id="contactForm">
           <label class="field">
             <span>الاسم</span>
-            <input type="text" id="name" placeholder="اسمك" required
+            <input type="text" id="name" placeholder="اسمك" required />
           </label>
 
           <label class="field">
             <span>رقم الجوال</span>
-            <input type="tel" id="phone" placeholder="05xxxxxxxx"
+            <input type="tel" id="phone" placeholder="05xxxxxxxx" required />
           </label>
 
           <label class="field">
@@ -346,7 +386,7 @@
 
           <label class="field">
             <span>الموقع داخل الرياض</span>
-            <input type="text" id="location" placeholder= required>
+            <input type="text" id="location" placeholder="مثال: حي المونسية" required />
           </label>
 
           <label class="field">
@@ -366,7 +406,7 @@
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer__inner">
-      <div>© <span id="year"></span> اير ماكس لخدمات التكييف ونقل الأثاث - الرياض</div>
+      <div>© <span id="year"></span> اير ماكس للتكييف ونقل الأثاث - الرياض</div>
       <div class="footer__links">
         <a href="#home">الرئيسية</a>
         <span>•</span>
